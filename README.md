@@ -6,3 +6,8 @@ How to run
    2. cd bitmain
    3. sbt run
    4. Provide input and hit Enter
+
+Running Tests
+================================
+    1. cd bitmain
+    2. sbt test
