@@ -1,0 +1,778 @@
+[debug] :: resolving dependencies :: default#btcom$sources;0.1
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.5 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.5
+[debug] 	found org.scala-lang#scala-library;2.12.5 in sbt-chain
+[debug] 	[2.12.5] org.scala-lang#scala-library;2.12.5
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [runtime]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [test]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [runtime]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-common_2.12;3.8.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.12;3.8.6
+[debug] 	found org.specs2#specs2-common_2.12;3.8.6 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->default]
+[debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-core_2.12;3.8.6 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.12;3.8.6
+[debug] 	found org.specs2#specs2-core_2.12;3.8.6 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.5
+[debug] 	found org.scala-lang#scala-reflect;2.12.5 in sbt-chain
+[debug] 	[2.12.5] org.scala-lang#scala-reflect;2.12.5
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.12;7.2.7 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.12;7.2.7
+[debug] 	found org.scalaz#scalaz-effect_2.12;7.2.7 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->default]
+[debug] sbt-chain: Checking cache for: dependency: org.mockito#mockito-all;1.9.5 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.mockito#mockito-all;1.9.5
+[debug] 	found org.mockito#mockito-all;1.9.5 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.12;7.2.7 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.12;7.2.7
+[debug] 	found org.scalaz#scalaz-core_2.12;7.2.7 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.5 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-codata_2.12;3.8.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-codata_2.12;3.8.6
+[debug] 	found org.specs2#specs2-codata_2.12;3.8.6 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-matcher_2.12;3.8.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.12;3.8.6
+[debug] 	found org.specs2#specs2-matcher_2.12;3.8.6 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-concurrent_2.12;7.2.7 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.12;7.2.7
+[debug] 	found org.scalaz#scalaz-concurrent_2.12;7.2.7 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [compile-internal]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [optional]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [provided]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [runtime-internal]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [runtime]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [optional]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [test-internal]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [test]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [runtime]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [compile->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [runtime->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test->master]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [optional]
+[debug] == resolving dependencies for default#btcom$sources;0.1 [provided]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-common_2.12;3.8.6 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-core_2.12;3.8.6 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->master(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-effect_2.12;7.2.7 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.mockito#mockito-all;1.9.5 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.7 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-codata_2.12;3.8.6 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.specs2#specs2-matcher_2.12;3.8.6 [test-internal->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test-internal->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test-internal->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test-internal->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test-internal->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scalaz#scalaz-concurrent_2.12;7.2.7 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [plugin]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#btcom$sources;0.1 [scala-tool]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-reflect;2.12.5 [scala-tool->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->default]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->master(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->runtime(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->optional]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-library;2.12.5 [scala-tool->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->jline#jline;2.14.5 [scala-tool->compile]
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.5 {scala-tool=[compile, master(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.14.5
+[debug] 	found jline#jline;2.14.5 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->jline#jline;2.14.5 [scala-tool->master(compile)]
+[debug] == resolving dependencies default#btcom$sources;0.1->jline#jline;2.14.5 [scala-tool->compile(*)]
+[debug] == resolving dependencies default#btcom$sources;0.1->jline#jline;2.14.5 [scala-tool->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.5 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.5
+[debug] 	found org.scala-lang#scala-compiler;2.12.5 in sbt-chain
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->master]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->compile]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->optional]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#btcom$sources;0.1->org.scala-lang#scala-compiler;2.12.5 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 		tried /Users/adityahalabe/.ivy2/local/org.specs2/specs2-common_2.12/3.8.6/srcs/specs2-common_2.12-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.5!scala-library.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-common_2.12/3.8.6/specs2-common_2.12-3.8.6-sources.jar
+[debug] 		tried /Users/adityahalabe/.ivy2/local/org.specs2/specs2-core_2.12/3.8.6/srcs/specs2-core_2.12-sources.jar
+[debug] 		tried /Users/adityahalabe/.ivy2/local/org.scalaz/scalaz-core_2.12/7.2.7/srcs/scalaz-core_2.12-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-core_2.12/3.8.6/specs2-core_2.12-3.8.6-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.7/scalaz-core_2.12-7.2.7-sources.jar
+[debug] 	[NOT REQUIRED] org.mockito#mockito-all;1.9.5!mockito-all.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.5!scala-reflect.jar(src)
+[debug] 		tried /Users/adityahalabe/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.5/srcs/scala-xml_2.12-sources.jar
+[debug] 		tried /Users/adityahalabe/.ivy2/local/org.scalaz/scalaz-concurrent_2.12/7.2.7/srcs/scalaz-concurrent_2.12-sources.jar
+[debug] 		tried /Users/adityahalabe/.ivy2/local/org.specs2/specs2-codata_2.12/3.8.6/srcs/specs2-codata_2.12-sources.jar
+[debug] 		tried /Users/adityahalabe/.ivy2/local/org.scalaz/scalaz-effect_2.12/7.2.7/srcs/scalaz-effect_2.12-sources.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.7/scalaz-concurrent_2.12-7.2.7-sources.jar
+[debug] 		tried /Users/adityahalabe/.ivy2/local/org.specs2/specs2-matcher_2.12/3.8.6/srcs/specs2-matcher_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.12/3.8.6/specs2-codata_2.12-3.8.6-sources.jar
+[debug] no default ivy user dir defined: set to /Users/adityahalabe/.ivy2
+[debug] no default ivy user dir defined: set to /Users/adityahalabe/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.5!scala-compiler.jar(src)
+[debug] no default ivy user dir defined: set to /Users/adityahalabe/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /Users/adityahalabe/.ivy2
+[debug] no default ivy user dir defined: set to /Users/adityahalabe/.ivy2
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /Users/adityahalabe/.ivy2/cache
+[debug] no default cache defined: set to /Users/adityahalabe/.ivy2/cache
+[debug] no default cache defined: set to /Users/adityahalabe/.ivy2/cache
+[debug] no default cache defined: set to /Users/adityahalabe/.ivy2/cache
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/adityahalabe/.ivy2/cache
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.12/3.8.6/specs2-common_2.12-3.8.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.12/3.8.6/specs2-common_2.12-3.8.6-sources.jar
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/adityahalabe/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (17ms)
+[debug] 	default cache: /Users/adityahalabe/.ivy2/cache
+[debug] settings loaded (17ms)
+[debug] 	default resolver: default
+[debug] 	default cache: /Users/adityahalabe/.ivy2/cache
+[debug] 	-- 5 resolvers:
+[debug] 	default resolver: default
+[debug] 	shared [file]
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] settings loaded (16ms)
+[debug] 	default [chain] [local, main]
+[debug] 	default cache: /Users/adityahalabe/.ivy2/cache
+[debug] 	default [chain] [local, main]
+[debug] 	default resolver: default
+[debug] 	public [ibiblio]
+[debug] 	public [ibiblio]
+[debug] 	-- 5 resolvers:
+[debug] settings loaded (16ms)
+[debug] 	shared [file]
+[debug] 	default cache: /Users/adityahalabe/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	local [file]
+[debug] settings loaded (16ms)
+[debug] 	default cache: /Users/adityahalabe/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.12/3.8.6/specs2-matcher_2.12-3.8.6-sources.jar
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.7/scalaz-core_2.12-7.2.7-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.7/scalaz-core_2.12-7.2.7-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.12/3.8.6/specs2-core_2.12-3.8.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.12/3.8.6/specs2-core_2.12-3.8.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.12/3.8.6/specs2-codata_2.12-3.8.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.12/3.8.6/specs2-codata_2.12-3.8.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.7/scalaz-concurrent_2.12-7.2.7-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.7/scalaz-concurrent_2.12-7.2.7-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.12/3.8.6/specs2-matcher_2.12-3.8.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.12/3.8.6/specs2-matcher_2.12-3.8.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.12/3.8.6/specs2-core_2.12-3.8.6-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.12/3.8.6/specs2-matcher_2.12-3.8.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7-sources.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.12;7.2.7!scalaz-effect_2.12.jar(src) (224ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-core_2.12/3.8.6/specs2-core_2.12-3.8.6-sources.jar
+[info] 	[SUCCESSFUL ] org.specs2#specs2-core_2.12;3.8.6!specs2-core_2.12.jar(src) (265ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.12/3.8.6/specs2-matcher_2.12-3.8.6-sources.jar
+[info] 	[SUCCESSFUL ] org.specs2#specs2-matcher_2.12;3.8.6!specs2-matcher_2.12.jar(src) (248ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.7/scalaz-core_2.12-7.2.7-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.12/3.8.6/specs2-common_2.12-3.8.6-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.7/scalaz-concurrent_2.12-7.2.7-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src) (386ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.7/scalaz-core_2.12-7.2.7-sources.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-core_2.12;7.2.7!scalaz-core_2.12.jar(src) (394ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-common_2.12/3.8.6/specs2-common_2.12-3.8.6-sources.jar
+[info] 	[SUCCESSFUL ] org.specs2#specs2-common_2.12;3.8.6!specs2-common_2.12.jar(src) (414ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.7/scalaz-concurrent_2.12-7.2.7-sources.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-concurrent_2.12;7.2.7!scalaz-concurrent_2.12.jar(src) (414ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.12/3.8.6/specs2-codata_2.12-3.8.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.12/3.8.6/specs2-codata_2.12-3.8.6-sources.jar
+[info] 	[SUCCESSFUL ] org.specs2#specs2-codata_2.12;3.8.6!specs2-codata_2.12.jar(src) (458ms)
+[debug] :: resolution report :: resolve 76ms :: artifacts dl 475ms
+[debug] 	report for default#btcom$sources;0.1 compile produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-compile.xml
+[debug] 	report for default#btcom$sources;0.1 runtime produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-runtime.xml
+[debug] 	report for default#btcom$sources;0.1 test produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-test.xml
+[debug] 	report for default#btcom$sources;0.1 provided produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-provided.xml
+[debug] 	report for default#btcom$sources;0.1 optional produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-optional.xml
+[debug] 	report for default#btcom$sources;0.1 compile-internal produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-compile-internal.xml
+[debug] 	report for default#btcom$sources;0.1 runtime-internal produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-runtime-internal.xml
+[debug] 	report for default#btcom$sources;0.1 test-internal produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-test-internal.xml
+[debug] 	report for default#btcom$sources;0.1 plugin produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-plugin.xml
+[debug] 	report for default#btcom$sources;0.1 pom produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-pom.xml
+[debug] 	report for default#btcom$sources;0.1 scala-tool produced in /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/resolution-cache/reports/default-btcom$sources-scala-tool.xml
+[debug] 	resolve done (76ms resolve - 475ms download)

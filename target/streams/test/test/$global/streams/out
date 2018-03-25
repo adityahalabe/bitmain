@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(categories.StraightSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(IngrationSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(categories.OnePairSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(categories.ThreeOfKindSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(categories.StraightFlushSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(categories.FullHouseSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(categories.FlushSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(categories.TwoPairSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(categories.FourOfKindSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for specs2 not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 33, Failed 0, Errors 0, Passed 33[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	categories.ThreeOfKindSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	categories.TwoPairSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	categories.OnePairSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	categories.StraightSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	categories.StraightFlushSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	categories.FullHouseSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	categories.FlushSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	categories.FourOfKindSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IngrationSpec[0m

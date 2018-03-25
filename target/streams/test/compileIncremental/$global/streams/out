@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mThe com.bitmain.categories.PockerHand has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(rankType,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) com.bitmain.categories.PockerHand: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) com.bitmain.categories.PockerHand.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of categories.ThreeOfKindSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of categories.TwoPairSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of categories.OnePairSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of categories.StraightSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of categories.StraightFlushSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of categories.FullHouseSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of categories.FlushSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of categories.FourOfKindSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

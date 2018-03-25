@@ -1,0 +1,10 @@
+test
+test categories.ThreeOfKindSpec
+testOnly categories.ThreeOfKindSpec
+test
+testOnly categories.StraightSpec
+test
+run
+testOnly *HighCardSpec
+test
+exit

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="btcom_2.12"
+		revision="0.1"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180325184946"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.5" status="release" pubdate="20180316144401" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.pom"/>
+				<caller organisation="org.specs2" name="specs2-core_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.8.6"/>
+				<caller organisation="org.specs2" name="specs2-common_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3602589" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-core_2.12">
+			<revision name="3.8.6" status="release" pubdate="20161102122854" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="2588" time="66" location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-core_2.12/ivy-3.8.6.xml" searched="true" original-local-location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-core_2.12/ivy-3.8.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.12/3.8.6/specs2-core_2.12-3.8.6.pom"/>
+				<caller organisation="default" name="btcom_2.12" conf="test, compile, runtime" rev="3.8.6" rev-constraint-default="3.8.6" rev-constraint-dynamic="3.8.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="specs2-core_2.12" type="jar" ext="jar" status="successful" details="" size="1337093" time="3152" location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-core_2.12/jars/specs2-core_2.12-3.8.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.12/3.8.6/specs2-core_2.12-3.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-matcher_2.12">
+			<revision name="3.8.6" status="release" pubdate="20161102122854" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="1599" time="58" location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-matcher_2.12/ivy-3.8.6.xml" searched="true" original-local-location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-matcher_2.12/ivy-3.8.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.12/3.8.6/specs2-matcher_2.12-3.8.6.pom"/>
+				<caller organisation="org.specs2" name="specs2-core_2.12" conf="default, compile, runtime, master" rev="3.8.6" rev-constraint-default="3.8.6" rev-constraint-dynamic="3.8.6" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="specs2-matcher_2.12" type="jar" ext="jar" status="successful" details="" size="1494902" time="2742" location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-matcher_2.12/jars/specs2-matcher_2.12-3.8.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.12/3.8.6/specs2-matcher_2.12-3.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-common_2.12">
+			<revision name="3.8.6" status="release" pubdate="20161102122829" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="2909" time="66" location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-common_2.12/ivy-3.8.6.xml" searched="true" original-local-location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-common_2.12/ivy-3.8.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.12/3.8.6/specs2-common_2.12-3.8.6.pom"/>
+				<caller organisation="org.specs2" name="specs2-matcher_2.12" conf="compile, runtime" rev="3.8.6" rev-constraint-default="3.8.6" rev-constraint-dynamic="3.8.6" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="specs2-common_2.12" type="jar" ext="jar" status="successful" details="" size="1748468" time="3260" location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-common_2.12/jars/specs2-common_2.12-3.8.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.12/3.8.6/specs2-common_2.12-3.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.5" status="release" pubdate="20161029011007" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom"/>
+				<caller organisation="org.specs2" name="specs2-common_2.12" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="548430" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161029011045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
+				<caller organisation="org.specs2" name="specs2-common_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="bundle" ext="jar" status="no" details="" size="204313" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-codata_2.12">
+			<revision name="3.8.6" status="release" pubdate="20161102122739" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="1954" time="61" location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-codata_2.12/ivy-3.8.6.xml" searched="true" original-local-location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-codata_2.12/ivy-3.8.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.12/3.8.6/specs2-codata_2.12-3.8.6.pom"/>
+				<caller organisation="org.specs2" name="specs2-common_2.12" conf="compile, runtime" rev="3.8.6" rev-constraint-default="3.8.6" rev-constraint-dynamic="3.8.6" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="specs2-codata_2.12" type="jar" ext="jar" status="successful" details="" size="525988" time="1492" location="/Users/adityahalabe/.ivy2/cache/org.specs2/specs2-codata_2.12/jars/specs2-codata_2.12-3.8.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.12/3.8.6/specs2-codata_2.12-3.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-concurrent_2.12">
+			<revision name="7.2.7" status="release" pubdate="20161029021550" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2949" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scalaz/scalaz-concurrent_2.12/ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.7/scalaz-concurrent_2.12-7.2.7.pom"/>
+				<caller organisation="org.specs2" name="specs2-common_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.8.6"/>
+				<caller organisation="org.specs2" name="specs2-codata_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="scalaz-concurrent_2.12" type="bundle" ext="jar" status="no" details="" size="177242" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scalaz/scalaz-concurrent_2.12/bundles/scalaz-concurrent_2.12-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.7/scalaz-concurrent_2.12-7.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-effect_2.12">
+			<revision name="7.2.7" status="release" pubdate="20161029021605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2790" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scalaz/scalaz-effect_2.12/ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7.pom"/>
+				<caller organisation="org.specs2" name="specs2-common_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.8.6"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<caller organisation="org.specs2" name="specs2-codata_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="scalaz-effect_2.12" type="bundle" ext="jar" status="no" details="" size="296498" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scalaz/scalaz-effect_2.12/bundles/scalaz-effect_2.12-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.12">
+			<revision name="7.2.7" status="release" pubdate="20161029021521" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2639" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scalaz/scalaz-core_2.12/ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.7/scalaz-core_2.12-7.2.7.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<caller organisation="org.specs2" name="specs2-common_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.8.6"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<caller organisation="org.specs2" name="specs2-codata_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.12" type="bundle" ext="jar" status="no" details="" size="7664750" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scalaz/scalaz-core_2.12/bundles/scalaz-core_2.12-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.7/scalaz-core_2.12-7.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-all">
+			<revision name="1.9.5" status="release" pubdate="20121014121023" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mockito.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The MIT License" url="http://code.google.com/p/mockito/wiki/License"/>
+				<metadata-artifact status="no" details="" size="2478" time="0" location="/Users/adityahalabe/.ivy2/cache/org.mockito/mockito-all/ivy-1.9.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.pom"/>
+				<caller organisation="default" name="btcom_2.12" conf="test, compile, runtime" rev="1.9.5" rev-constraint-default="1.9.5" rev-constraint-dynamic="1.9.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mockito-all" type="jar" ext="jar" status="no" details="" size="1581066" time="0" location="/Users/adityahalabe/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.9.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.5" status="release" pubdate="20180316144746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.5/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="7.2.7"/>
+				<caller organisation="org.specs2" name="specs2-matcher_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.8.6"/>
+				<caller organisation="default" name="btcom_2.12" conf="test, compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.1"/>
+				<caller organisation="org.specs2" name="specs2-core_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.8.6"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="7.2.7"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.0.4"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.0.5"/>
+				<caller organisation="org.specs2" name="specs2-common_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.8.6"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="7.2.7"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="2.12.5"/>
+				<caller organisation="org.specs2" name="specs2-codata_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.8.6"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5263467" time="0" location="/Users/adityahalabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

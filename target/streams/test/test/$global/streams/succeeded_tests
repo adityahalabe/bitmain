@@ -1,0 +1,14 @@
+#Successful Tests
+#Sun Mar 25 19:56:22 CEST 2018
+categories.StraightFlushTest=1521997853284
+categories.ThreeOfKindSpec=1522000582245
+categories.TwoPairSpec=1522000582249
+categories.StraightFlushSpec=1522000582248
+categories.FlushSpec=1522000582244
+categories.FourOfKindTest=1521997853284
+IngrationSpec=1522000582244
+categories.FourOfKindSpec=1522000582335
+categories.OnePairSpec=1522000582248
+categories.HighCardSpec=1522000131154
+categories.StraightSpec=1522000582244
+categories.FullHouseSpec=1522000582245

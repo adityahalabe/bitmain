@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0mThreeOfKindSpec[0m
+[0m[[0m[0minfo[0m] [0m[0mThree of Kind Test should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m calculate hand  for correct in hand combination[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m calculate hand  for correct on deck combination[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m calculate hand  for correct combination[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m give false for wrong combination [0m
+[0m[[0m[0minfo[0m] [0m[0mTotal for specification ThreeOfKindSpec[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 317 ms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m4 examples, 0 failure, 0 error[0m[0m

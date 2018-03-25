@@ -1,0 +1,94 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/Users/adityahalabe/aditya/personal/ownCode/btcom/src/main/scala/com/bitmain/categories/HighCard.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/adityahalabe/aditya/personal/ownCode/btcom/src/main/scala/com/bitmain/categories/RankIdentifier.scala, /Users/adityahalabe/aditya/personal/ownCode/btcom/src/main/scala/com/bitmain/categories/PockerHand.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.bitmain.categories.RankIdentifier, com.bitmain.categories.PockerHand)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.bitmain.categories.RankIdentifier, com.bitmain.categories.PockerHand)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/adityahalabe/aditya/personal/ownCode/btcom/src/main/scala/com/bitmain/categories/HighCard.scala, /Users/adityahalabe/aditya/personal/ownCode/btcom/src/main/scala/com/bitmain/categories/RankIdentifier.scala, /Users/adityahalabe/aditya/personal/ownCode/btcom/src/main/scala/com/bitmain/categories/PockerHand.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 3 Scala sources to /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 298fa54d for Scala compiler version 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes:/Users/adityahalabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.181163915 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.bitmain.categories.PockerHand...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.bitmain.categories.PockerHand)[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.ThreeOfKind by com.bitmain.categories.PockerHand[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.TwoPair by com.bitmain.categories.PockerHand[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.FourOfKind by com.bitmain.categories.PockerHand[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.StraightFlush by com.bitmain.categories.PockerHand[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.OnePair by com.bitmain.categories.PockerHand[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.Straight by com.bitmain.categories.PockerHand[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.FullHouse by com.bitmain.categories.PockerHand[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.Flush by com.bitmain.categories.PockerHand[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.HighCard by com.bitmain.categories.PockerHand[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.bitmain.categories.ThreeOfKind, com.bitmain.categories.PockerHand, com.bitmain.categories.TwoPair, com.bitmain.categories.FourOfKind, com.bitmain.categories.StraightFlush, com.bitmain.categories.OnePair, com.bitmain.categories.Straight, com.bitmain.categories.FullHouse, com.bitmain.categories.Flush, com.bitmain.categories.HighCard)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.ThreeOfKind. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.TwoPair. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.FourOfKind. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.StraightFlush. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.OnePair. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.Straight. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.FullHouse. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.Flush. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.HighCard. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.bitmain.categories.RankIdentifier. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.bitmain.categories.PockerHand,ModifiedNames(changes = UsedName(rankType,[Default]))) invalidates 10 classes due to The com.bitmain.categories.PockerHand has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(rankType,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(com.bitmain.categories.ThreeOfKind, com.bitmain.categories.PockerHand, com.bitmain.categories.TwoPair, com.bitmain.categories.FourOfKind, com.bitmain.categories.StraightFlush, com.bitmain.categories.OnePair, com.bitmain.categories.Straight, com.bitmain.categories.FullHouse, com.bitmain.categories.Flush, com.bitmain.categories.HighCard)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.bitmain.categories.HighCard...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.bitmain.categories.HighCard)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.bitmain.categories.HighCard)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of com.bitmain.categories.RankIdentifier: Set(UsedName(com;bitmain;categories;HighCard;init;,[Default]), UsedName(HighCard,[Default]), UsedName(identifyBestRank,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.bitmain.categories.HighCard,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(rankType,[Default]), UsedName($isInstanceOf,[Default]), UsedName(com;bitmain;categories;HighCard;init;,[Default]), UsedName($asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(HighCard,[Default]), UsedName(ne,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(!=,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(identifyBestRank,[Default]), UsedName(==,[Default]), UsedName(##,[Default]), UsedName(toString,[Default]), UsedName(getClass,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(asInstanceOf,[Default]), UsedName(isThisBestRankPossible,[Default]), UsedName(eq,[Default]))) invalidates 2 classes due to The com.bitmain.categories.HighCard has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(clone,[Default]), UsedName(rankType,[Default]), UsedName($isInstanceOf,[Default]), UsedName(com;bitmain;categories;HighCard;init;,[Default]), UsedName($asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(HighCard,[Default]), UsedName(ne,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(!=,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(identifyBestRank,[Default]), UsedName(==,[Default]), UsedName(##,[Default]), UsedName(toString,[Default]), UsedName(getClass,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(asInstanceOf,[Default]), UsedName(isThisBestRankPossible,[Default]), UsedName(eq,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(com.bitmain.categories.HighCard)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(com.bitmain.categories.RankIdentifier)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(com.bitmain.categories.ThreeOfKind, com.bitmain.categories.TwoPair, com.bitmain.categories.FourOfKind, com.bitmain.categories.StraightFlush, com.bitmain.categories.OnePair, com.bitmain.categories.Straight, com.bitmain.categories.FullHouse, com.bitmain.categories.Flush, com.bitmain.categories.RankIdentifier)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.bitmain.categories.ThreeOfKind, com.bitmain.categories.TwoPair, com.bitmain.categories.FourOfKind, com.bitmain.categories.StraightFlush, com.bitmain.categories.OnePair, com.bitmain.categories.Straight, com.bitmain.categories.FullHouse, com.bitmain.categories.Flush, com.bitmain.categories.RankIdentifier)[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.categories.RankIdentifier by com.bitmain.categories.ThreeOfKind[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding com.bitmain.application.ApplicationDemo by com.bitmain.categories.RankIdentifier[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set(com.bitmain.categories.ThreeOfKind, com.bitmain.categories.TwoPair, com.bitmain.categories.FourOfKind, com.bitmain.categories.StraightFlush, com.bitmain.categories.OnePair, com.bitmain.categories.Straight, com.bitmain.categories.FullHouse, com.bitmain.categories.Flush)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 15 sources: invalidated sources (9) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 15 Scala sources to /Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4fa73c9f for Scala compiler version 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes:/Users/adityahalabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/adityahalabe/aditya/personal/ownCode/btcom/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.976533045 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
